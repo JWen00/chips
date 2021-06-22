@@ -1,0 +1,28 @@
+{
+  "name": "chips",
+  "version": "1.0.0",
+  "description": "Virtual game room for poker chips",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JWen00/chips.git"
+  },
+  "keywords": [
+    "poker-chips",
+    "game-room",
+    "socketio"
+  ],
+  "author": "JWen00 (Jennifer Xu)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JWen00/chips/issues"
+  },
+  "homepage": "https://github.com/JWen00/chips#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.1.2"
+  }
+}
