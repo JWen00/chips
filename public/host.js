@@ -14,3 +14,8 @@ hostForm.addEventListener('submit', (e) => {
 // console.log(pot);
 // potSpan.innerText = pot;
 // })
+
+// Switching to join page
+function switchToJoin() {
+    window.location.href = "/";
+}

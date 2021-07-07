@@ -21,3 +21,9 @@ socket.on('join-error', () => {
         joinRoomID.style.border = "1px solid black";
     }, 3000)
 });
+
+
+// Switching to host page
+function switchToHost() {
+    window.location.href = "/host";
+}

@@ -5,20 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script defer src="/socket.io/socket.io.js"></script>
-    <script defer src="/script.js"></script>
-    <script defer src="/host.js"></script>
+    <script defer src="script.js"></script>
+    <script defer src="host.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
     <title>Chips.io</title>
 </head>
 <body> 
-    <form id="hostForm">
-        <input id="hostUsername" placeholder="Display Name" required autocomplete="on"/>
+    <div class="card" id="join" onclick="switchToJoin()"></div>
+    <div class="logoContainer"><div class=logo></div></div>
+    <form class="form" id="hostForm">
         <input id="hostRoomName" placeholder="Room name" required autocomplete="on"/>
+        <input id="hostUsername" placeholder="Display Name" required autocomplete="on"/>
         <button type="submit">Host</button>
-    </form>
-
-    <form id="form" action="/">
-        <label>Join a game instead?<label>
-        <button type="submit">Join a lobby</button>
     </form>
 </body>
 </html>

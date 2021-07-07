@@ -1,0 +1,80 @@
+/* Mint White: #F5FFFA */
+/* Casino Green: #426d49 */
+
+body {
+    background-color: #426d49;
+    color: #F5FFFA;
+    position: relative;
+}
+
+input { 
+    border: none;
+    font-size: large;
+    margin: 10px;
+    padding: 15px;
+    background-color: #F5FFFA;
+    border-radius: 5px;
+    min-width: 300px
+}
+
+button {
+    border: 2px solid #F5FFFA;
+    background-color: #426d49;
+    border-radius: 2px;
+    width: 250px;
+    height: 50px;
+    color: #F5FFFA;
+    margin: 10px;
+    font-size: large;
+}
+
+.logo {
+    background: url(Chips.io.png) no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+}
+
+#host {
+    background: url(cards-host.png) no-repeat;
+    background-size: cover;
+}
+
+#join {
+    background: url(cards-join.png) no-repeat;
+    background-size: cover;
+}
+
+.card {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    right: 0px;
+    top: -110px;
+}
+
+/* Card Animation */
+@keyframes cardExtend {
+    from { top: -110px; }
+    to { top: -70px; }
+}
+
+#host:hover {
+    animation-name: cardExtend;
+    animation-duration: 1s;
+}
+
+.logoContainer {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    min-width: 500px
+}
+
+.form {
+    min-width: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
